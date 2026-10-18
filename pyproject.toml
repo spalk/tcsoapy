@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tcsoapy"
+version = "0.1.0"
+authors = [{ name = "Dmitry Natkha" }]
+description = "Python client for Siemens Teamcenter SOA web services (WSDL/SOAP)"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = ["zeep", "requests", "lxml"]
+keywords = ["teamcenter", "plm", "soa", "soap", "wsdl", "bom"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering",
+]
+
+[project.urls]
+Homepage = "https://github.com/spalk/tcsoapy"
+Issues = "https://github.com/spalk/tcsoapy/issues"
